@@ -51,7 +51,6 @@ sudo systemctl status docker
 ```
 Clonar repositorio desde GitHub
 ```
-sudo apt install git -y
 git clone https://github.com/TU_USUARIO/bmw-web.git
 cd bmw-web
 ```
