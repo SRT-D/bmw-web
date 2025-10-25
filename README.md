@@ -1,9 +1,11 @@
-# BMW Web — Generación G & LCI Pagina Web
+# BMW Web — Despliegue Automático con Docker
 
-Este proyecto presenta una página web estática sobre los modelos más recientes de BMW de la generación G y sus versiones LCI (Life Cycle Impulse).  
-Fue desarrollada con **HTML, CSS y Nginx**, y está lista para ser desplegada tanto **localmente con Docker** como **en la nube (AWS EC2 Ubuntu 22.04)**.
+Este proyecto implementa una página web informativa sobre la **Generación G y LCI de BMW**, desarrollada con **HTML y CSS**.  
+Está diseñada para ejecutarse dentro de un contenedor **Docker con Nginx**, y cuenta con un **script automatizado (`deploy.sh`)** que construye y lanza el servicio sin intervención manual.
 
 ---
 
 ## 📁 Estructura del proyecto
+
+
 
