@@ -18,7 +18,7 @@ bmw-web/
 
 └── README.md
 
-## 🐳 Dockerfile
+## Dockerfile
 
 El proyecto incluye un `Dockerfile` que define cómo se construye la imagen del sitio.
 
