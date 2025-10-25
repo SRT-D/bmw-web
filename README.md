@@ -35,6 +35,41 @@ EXPOSE 80
 # El contenedor iniciará automáticamente Nginx
 
 ```
+# Como ejecutar la pagina Web sin Script
+Actualiza el sistema, instala Git e instala Docker
+```
+sudo apt update
+sudo apt install git -y
+sudo apt update
+sudo apt upgrade -y //Solamente si trabajas esto fuera de una instancia mucho cuidado
+sudo apt install docker-compose -y
+```
+Verificar que el Docker este activo:
+```
+sudo docker --version
+sudo systemctl status docker
+
+```
+Clonar repositorio desde GitHub
+```
+sudo apt install git -y
+git clone https://github.com/TU_USUARIO/bmw-web.git
+cd bmw-web
+```
+Construir Imagen Docker y verificarla
+```
+sudo docker build -t bmw-web
+sudo docker image ls
+```
+Si estas en tu Pc local 
+```
+sudo docker run -d -p 80:80 bmw-web
+```
+Si estas en una instancia 
+```
+http://<IP_PÚBLICA_DE_LA_INSTANCIA>
+```
+
 # Como Utilizar Script
 Antes de poder generar todo automaticamente usted debera utilizar los siguientes comandos:
 ```
