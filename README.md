@@ -40,7 +40,6 @@ Actualiza el sistema, instala Git e instala Docker
 ```
 sudo apt update
 sudo apt install git -y
-sudo apt update
 sudo apt upgrade -y //Solamente si trabajas esto fuera de una instancia mucho cuidado
 sudo apt install docker-compose -y
 ```
