@@ -1,23 +1,9 @@
-# BMW Web
+# BMW Web — Generación G & LCI Pagina Web
 
-Este proyecto contiene una página web informativa para BMW, desarrollada con HTML, CSS y JavaScript.
-
----
-
-## 🚀 Despliegue en un contenedor Docker
-
-Sigue los pasos a continuación para ejecutar el proyecto en un entorno de producción utilizando **Docker**.
-
-### 1️⃣ Requisitos previos
-
-Asegúrate de tener instalados en tu sistema:
-- [Docker Desktop](https://www.docker.com/)
-- [Git](https://git-scm.com/)
+Este proyecto presenta una página web estática sobre los modelos más recientes de BMW de la generación G y sus versiones LCI (Life Cycle Impulse).  
+Fue desarrollada con **HTML, CSS y Nginx**, y está lista para ser desplegada tanto **localmente con Docker** como **en la nube (AWS EC2 Ubuntu 22.04)**.
 
 ---
 
-### 2️⃣ Clonar el repositorio
+## 📁 Estructura del proyecto
 
-```bash
-git clone https://github.com/TU_USUARIO/bmw-web.git
-cd bmw-web
