@@ -56,7 +56,7 @@ cd bmw-web
 ```
 Construir Imagen Docker y verificarla
 ```
-sudo docker build -t bmw-web
+sudo docker build -t bmw-web .
 sudo docker image ls
 ```
 Si estas en tu Pc local 
