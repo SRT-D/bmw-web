@@ -63,6 +63,7 @@ Ejecutar para iniciar la pagina web
 ```
 sudo docker run -d -p 80:80 bmw-web
 ```
+En tu navegador
 ```
 http://<IP_PÚBLICA_DE_LA_INSTANCIA>
 ```
