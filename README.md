@@ -59,11 +59,10 @@ Construir Imagen Docker y verificarla
 sudo docker build -t bmw-web .
 sudo docker image ls
 ```
-Si estas en tu Pc local 
+Ejecutar para iniciar la pagina web
 ```
 sudo docker run -d -p 80:80 bmw-web
 ```
-Si estas en una instancia 
 ```
 http://<IP_PÚBLICA_DE_LA_INSTANCIA>
 ```
