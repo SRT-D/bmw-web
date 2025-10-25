@@ -5,7 +5,7 @@
 # Fecha: Octubre 2025
 # ------------------------------------------------------
 
-echo "🚀 Iniciando despliegue automático de BMW Web..."
+echo " Iniciando despliegue automático de BMW Web..."
 
 # 1️⃣ Verificar si Docker está instalado
 if ! command -v docker &> /dev/null
